@@ -1,4 +1,4 @@
-"""Import the Account class from the Account.py file."""
+import Account from Account
 # ADD YOUR CODE HERE
 
 # Define a function for the Savings Account
