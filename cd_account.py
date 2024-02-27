@@ -1,4 +1,4 @@
-import Account from Account
+from Account import Account
 # ADD YOUR CODE HERE
 
 def create_cd_account(balance, interest_rate, months):

@@ -1,4 +1,4 @@
-import Account from Account
+from Account import Account
 # ADD YOUR CODE HERE
 
 # Define a function for the Savings Account
