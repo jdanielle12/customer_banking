@@ -13,10 +13,10 @@ This is a simple Python application for managing savings and CD(Certificate of D
 https://github.com/jdanielle12/customer_banking.git
 
 2. Navigate to the project directory:
-cd customer_banking
+`cd customer_banking`
 
 3. Run the main Python file:
-python3 customer_banking.py
+`python3 customer_banking.py`
 
 4. Follow the prompts to input savings and CD account details.
 
