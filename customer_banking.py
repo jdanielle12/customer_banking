@@ -5,7 +5,7 @@ def main():
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
     savings_balance = float(input("Enter savings account balance: "))
     savings_interest = float(input("Enter savings account interest rate (%): "))
-    savings_maturity = int(input("Enter savings account maturity months: "))
+    savings_maturity = int(input("Enter savings account maturity: "))
 
     # Call the create_savings_account function and pass the variables from the user.
     updated_savings_balance, interest_earned = create_savings_account(savings_balance, savings_interest, savings_maturity)
@@ -15,7 +15,9 @@ def main():
     print(f"Updated savings account balance: {updated_savings_balance:.2f}")
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
-    # ADD YOUR CODE HERE
+    cd_balance = float(input("Enter CD account balance: "))
+    cd_interest = float(input(f"Enter CD account interest rate (%): "))
+    cd_maturity = int(input("Enter CD account maturity: "))
 
     # Call the create_cd_account function and pass the variables from the user.
     updated_cd_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_maturity)
