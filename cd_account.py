@@ -3,7 +3,7 @@ from Account import Account
 def create_cd_account(balance, interest_rate, months):
     cd_account = Account(balance, interest_rate)
     
-    interest_earned = balance * (interest_rate / 100)
+    interest_earned = balance * (interest_rate / 100) * (months / 12)
     
     updated_balance = balance + interest_earned
     
