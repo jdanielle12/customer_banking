@@ -3,9 +3,9 @@ from Account import Account
 def create_savings_account(balance, interest_rate, months):
     savings_account = Account(balance, interest_rate)
 
-    interest_earned = savings_account.get_balance() * (interest_rate / 100)
+    interest_earned = savings_account.set_balance() * (interest_rate / 100)
 
-    updated_balance = savings_account.get_balance() + interest_earned
+    updated_balance = savings_account.set_balance() + interest_earned
 
     savings_account.set_balance(updated_balance)
     savings_account.set_interest(interest_earned)
