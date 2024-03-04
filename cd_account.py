@@ -10,4 +10,4 @@ def create_cd_account(balance, interest_rate, months):
     cd_account.set_balance(updated_balance)
     cd_account.set_interest(interest_earned)
     
-    return updated_balance, interest_earned
+    return "{:,.2f}".format(updated_balance), "{:,.2f}".format(interest_earned)
