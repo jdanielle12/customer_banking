@@ -23,7 +23,7 @@ def main():
     updated_cd_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_maturity)
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
-    print(f"CD account interest earned: {cd_balance}")
+    print(f"CD account interest earned: {interest_earned}")
     print(f"Updated CD account balance: {updated_cd_balance}")
 
 if __name__ == "__main__":
